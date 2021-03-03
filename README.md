@@ -5,6 +5,8 @@ This repository contains in-house scripts that are used for intron retention ana
 
 ## Description of files
 
+Note that the **python version** used for two `.py` scripts should be 2.7 (also required for module `HTSeq`). 
+
 `get_IR_annotation.py` is for obtaining potential IR events annotation from refGene downloaded from UCSC Genome Browser database. Annotation file in hg19 can be downloaded from `ftp://hgdownload.soe.ucsc.edu/goldenPath/hg19/database/refGene.txt.gz`. You can also change `hg19` in the url to any other assembly like `hg38` or `mm9`. 
 
 `shared_exon_intron_mapped_reads.py`is to generate a count file contained read count in intron and flanking exon(s) for each potential IR event. 
